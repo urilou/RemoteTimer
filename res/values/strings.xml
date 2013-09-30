@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">プレゼンタイマー</string>
+    <string name="action_settings">設定</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="back">戻る</string>
+    <string name="start">プレゼンを始める</string>
+    <string name="next">次へ</string>
+    <string name="swtch">切り替え</string>
+    <string name="close">閉じる</string>
+    <string name="test">テスト</string>
+    <string name="share">共有</string>
+    <string name="ipadress">Wi-Fiを有効にしてコンピューターのIPアドレスを入力してください</string>
+    <string name="limtime">プレゼンテーションの所要時間を分単位で入力してください</string>
+    <string name="save">保存</string>
+
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#808080"
+    tools:context=".MainActivity" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1C1E20"
+        android:stretchColumns="0,1,2,3,4,5,6,7,8,9,10,11" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3" >
+
+            <Button
+                android:id="@+id/timer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_span="12"
+                android:background="#1C1E20"
+                android:gravity="center|center"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="30dp"
+                android:textSize="80sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4" >
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_span="4"
+                android:background="#1C1E20"
+                android:contentDescription="@string/back"
+                android:gravity="center|center"
+                android:src="@drawable/back" />
+
+            <ImageButton
+                android:id="@+id/start"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_span="4"
+                android:background="#1C1E20"
+                android:contentDescription="@string/start"
+                android:gravity="center|center"
+                android:src="@drawable/start" />
+
+            <ImageButton
+                android:id="@+id/next"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_span="4"
+                android:background="#1C1E20"
+                android:contentDescription="@string/next"
+                android:gravity="center|center"
+                android:src="@drawable/next" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3" >
+
+            <ImageButton
+                android:id="@+id/swtch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_span="3"
+                android:background="#1C1E20"
+                android:contentDescription="@string/next"
+                android:gravity="center|center"
+                android:src="@drawable/swtch" />
+
+            <ImageButton
+                android:id="@+id/close"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_span="3"
+                android:background="#1C1E20"
+                android:contentDescription="@string/close"
+                android:gravity="center|center"
+                android:src="@drawable/close" />
+
+            <ImageButton
+                android:id="@+id/test"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_span="3"
+                android:background="#1C1E20"
+                android:contentDescription="@string/test"
+                android:gravity="center|center"
+                android:src="@drawable/test" />
+
+            <ImageButton
+                android:id="@+id/share"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_span="3"
+                android:background="#1C1E20"
+                android:contentDescription="@string/share"
+                android:gravity="center|center"
+                android:src="@drawable/share" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
