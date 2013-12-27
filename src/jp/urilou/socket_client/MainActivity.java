@@ -7,12 +7,10 @@ import java.net.UnknownHostException;
 import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.StrictMode;
 import android.os.Vibrator;
-import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -26,7 +24,6 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Toast;
 
-@TargetApi(Build.VERSION_CODES.GINGERBREAD)
 public class MainActivity extends Activity {
 	Timer timer;
 	Handler handler = new Handler();

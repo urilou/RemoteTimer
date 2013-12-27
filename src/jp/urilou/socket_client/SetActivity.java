@@ -16,6 +16,13 @@ public class SetActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_set);
 
+		// ê›íËÇÃì«Ç›éÊÇË
+		EditText editText = (EditText) findViewById(R.id.server_adress);
+		SharedPreferences sp = getSharedPreferences("socket_client",
+				MODE_PRIVATE);
+		String ip = sp.getString("ipadress", null);
+		editText.setText(ip);
+
 		Button save = (Button) findViewById(R.id.save);
 		save.setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -33,7 +40,7 @@ public class SetActivity extends Activity {
 					int intlimtime = Integer.parseInt(strlimtime);
 					editor.putInt("limtime", intlimtime);
 				}
-				
+
 				editor.commit();
 			}
 		});
